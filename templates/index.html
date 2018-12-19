@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" style="background-color: #232323;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eniac Attack</title>
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="static/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="static/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/style12.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/mycss.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/test.css">
+
+
+    <!--css-->
+
+
+
+    <!--js-->
+    <script defer src="static/js/float-panel.js"></script>
+    <script defer src="static/js/test.js"></script>
+    <!--js-->
+
+    <!--cdns-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=VT323" />
+    <!--cdns-->
+
+    <link rel="icon" type="image/png" href="static/img/fav.png">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--                        <form class="form" style="" action="/send" method="POST">
+                <h2 class="chead">Social Media</h2>
+                <p type="Name:">
+
+                </p>
+
+                </p>
+
+                </p>
+
+            </form>-->
+
+    <!--<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>-->
+</head>
+
+<!--color that i need-->
+
+
+<!--green = #34B14A-->
+<!--red = #EF3E35-->
+<!--blue = #00A4DF-->
+<!--yellow = #F9CD18-->
+<!--orange = #F26522-->
+
+<nav class="navbar i" style="position: fixed;top: 0;background-color:#232323;">
+    <div class="container io" style="
+    padding-right: 50px;background-color:#232323
+">
+        <div class="navbar-brand oa">
+
+
+            <a class="ne" href="#" style="font-weight:bold;">
+    <img class="ni" src="static/img/logo_1.png"  style="">
+  </a>
+
+
+            <div class="navbar-brand">
+
+            </div>
+            </a>
+            <!--
+  <span class="navbar-burger burger" data-target="navMenu">
+    <span aria-hidden="true" style="color:white;"></span>
+    <span aria-hidden="true" style="color:white;"></span>
+    <span aria-hidden="true" style="color:white;"></span>
+  </span>
+  -->
+        </div>
+        <div id="navMenu" class=" he">
+            <div class="navbar-end">
+                <ul class="hello navbar-item" id="mainNav" style="    padding-bottom: 4rem;width:700px;">
+                    <li class="is-active  logo"><a style="color:#ffffff;" class="logo" href="#home">Home</a></li>
+                    <li class=" logo"><a style="color:#ffffff;" class="logo" href="#work">About</a></li>
+                    <li class=" logo"><a style="color:#ffffff;" class="logo" href="#about">Projects</a></li>
+                    <li class=" logo"><a style="color:#ffffff;" class="logo" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<!--
+<nav class="navbar i" role="navigation" aria-label="navigation" style="  overflow: hidden;position: fixed;top: 0;background-color:#252525;">
+    <div class="navbar-brand">
+        <img class="ni" src="static/img/logo_1.png"  style="padding: 10px;">
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true" style="color:white;"></span>
+          <span aria-hidden="true" style="color:white;"></span>
+          <span aria-hidden="true" style="color:white;"></span>
+        </a>
+
+    </div>
+
+    <div class="navbar-end">
+
+        <div class="buttons">
+            <div id="navbarBasicExample" class="navbar-menu bgc" style="padding-right:100px;">
+                <div class="navbar-start">
+
+                     <ul class="hello navbar-item" id="mainNav" style="    padding-bottom: 4rem;">
+                        <li class="is-active  logo"><a style="color:#ffffff;" class="logo" href="#home">Home</a></li>
+                        <li class=" logo"><a style="color:#ffffff;" class="logo" href="#work">About</a></li>
+                        <li class=" logo"><a style="color:#ffffff;" class="logo" href="#about">Projects</a></li>
+                        <li class=" logo"><a style="color:#ffffff;" class="logo" href="#contact">Contact</a></li>
+                     </ul>
+              <!--
+                      <ul class="hello">
+                        <li class="one"><a style="color:#ffffff;" class="logo" href="#home">Home</a></li><!--
+                     <li class="two"><a style="color:#ffffff;" class="logo" href="#work">About</a></li><!--
+                     <li class="three"><a style="color:#ffffff;" class="logo" href="#about" >Projects</a></li><!--
+                     <li class="four"><a style="color:#ffffff;" class="logo" href="#contact">Contact</a></li>
+                        <hr class="CHR"/>
+                      </ul>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</nav>
+
+-->
+
+<body>
+
+
+    <section class="hero navimg" id="red-box">
+        <div class="container">
+            <div style="" class="mobilenav" id="home">
+                <div class="">
+                    <img class="pad" src="static/img/l.png" style="">
+                    <br><br><br>
+
+                    <div class="content">
+                        <svg viewBox="0 0 1125 400">
+
+                            <!-- Symbol -->
+                            <symbol id="s-text" >
+                                <text  class="underline navtextmob" style="" text-anchor="middle"  stlye="padding-top:500px;" x="50%" y="50%" >
+                                    Arsham
+                                </text>
+                            </symbol>
+
+                            <!-- Duplicate symbols -->
+                            <use xlink:href="#s-text" class="text"></use>
+                            <use xlink:href="#s-text" class="text"></use>
+                            <use xlink:href="#s-text" class="text"></use>
+                            <use xlink:href="#s-text" class="text"></use>
+                            <use xlink:href="#s-text" class="text"></use>
+
+                        </svg>
+                    </div>
+                </div>
+                <h3 class="mobtext" align="center" style="font-size: 2em;
+    margin-bottom: 2rem;
+    color: white;">Gamer && Developer</h3>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <br>
+    <!--<hr style="color:#0636a5;height:10px;" id="work">-->
+    <section class="hero" id="" style="background:#2F47FF;padding-bottom:200px;padding-top:200px;">
+        <h1 id="work" align="center" style="font-size: 50px;margin-bottom: 2rem;color:white;"><img src="static/img/about.png"></h1>
+        <div class="container">
+
+
+
+            <div class="columns ">
+                <div class="column is-half" style="    display: flex;
+                                                    flex: 1;
+                                                    justify-content: center
+                                                   ;
+                                                    align-items: flex-end;">
+
+                    <img id="mobileimage" class="image" src="static/img/Arsham.jpg">
+
+                </div>
+
+                <!-- ------------------------------------------------------------------------------------------------------ -->
+                <div class="column  is-half " style="padding-left:25px; height: 10px">
+
+                    <div class='row bgimg'>
+                        <div class='col-md-offset-2 col-md-8' style="padding-top: 15px;">
+                            <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                                <!-- Bottom Carousel Indicators -->
+                                <ol class="carousel-indicators">
+
+                                </ol>
+
+                                <!-- Carousel Slides / Quotes -->
+                                <div class="carousel-inner ">
+
+                                    <!-- Quote 1 -->
+                                    <div class="item active ad">
+                                        <blockquote>
+                                            <!-- <div class="row bgimg">-->
+                                            <div class="row ">
+                                                <div class="col-sm-9 ola">
+
+                                                    <span class="title has-text-left is-vcentered" id="headertext" id="center" style="color:white;">
+Who am I?
+</span>
+                                                    <br>
+                                                    <span class=" has-text-left is-vcentered" id="center" id="aboutt" style="color:white;">
+                             My name is Arsham I am a Gamer and a Game Developer.My dream job is that I want to
+                             be a Game Developer for famous game making companies like Insomniac or Activision
+                             but we all have to start somewhere and this is where i began by making a simple game.
+                            </span>
+
+                                                </div>
+                                            </div>
+
+                                        </blockquote>
+                                    </div>
+                                    <!-- Quote 2 -->
+                                    <div class="item ad">
+                                        <blockquote>
+                                            <!-- <div class="row bgimg"> -->
+                                            <div class="row ">
+                                                <div class="col-sm-9 ola">
+
+                                                    <span class="title has-text-left" id="headertext" style="color:white;">
+Where do I work?
+</span>
+                                                    <br>
+                                                    <span class=" has-text-left is-vcentered" id="center" id="aboutt" style="color:white;">
+                             I work at kidocode which helped me learn all the things I know now like making games or making website and
+                              many many more and on the weekends I help for training little kids and i teach them mobile application making ,python and more and its a fun way to boost my knowledge in teaching
+                            </span>
+
+                                                </div>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+                                    <!-- Quote 3 -->
+                                    <div class="item ad">
+                                        <blockquote>
+                                            <!-- <div class="row bgimg">-->
+                                            <div class="row ">
+                                                <div class="col-sm-9 ola">
+
+                                                    <span class="title has-text-left ad" id="headertextt" style="color:white;">
+What I know
+</span>
+                                                    <br>
+                                                    <span class=" has-text-left is-vcentered" id="center" id="abouttt" style="color:white;">
+                             As far as languages go i know C++,C#,Python,HTML,CSS,Java and the things that I have tried but do not know much are C,Ruby,Lua,Bash,Swift,Go and I
+                             also have other experiences like making videos and editing then with Premier Pro
+
+                            </span>
+
+                                                </div>
+                                            </div>
+                                        </blockquote>
+                                    </div>
+                                </div>
+
+                                <!-- Carousel Buttons Next/Prev -->
+                                <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                                <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+
+                <!--put image instead of text and put html brackets when text begin and end-->
+                <!--                     </div>
+
+                    </div>
+-->
+            </div>
+        </div>
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+    </section>
+
+
+
+    <section class="hero" id="yellow-box" style="background:#2F47FF;">
+        <div class="container mobilenav" id="whiteT" style="padding-top: 200px;padding-bottom: 200px;">
+
+            <h1 id="about" align="center" style="font-size: 50px;margin-bottom: 2rem;color:white;">
+                <img src="static/img/project.png">
+            </h1>
+
+            <div class="columns ">
+
+                <div class="column">
+                    <div class="panel image_hover">
+                        <div class="modal-container">
+                            <a class="js-modal-trigger">
+                        <button target="_blank" href="">
+                            <div class="gallery">
+                                <img src="static/img/EA_Proj.png" alt="5Terre" width="600" height="400">
+                                <div class="desc" style="color: #ffffff;">Eniac Attack</div>
+                            </div>
+
+
+                        </button>
+                        </a>
+                            </a>
+                            <div class="modal">
+                                <div class="modal-background"></div>
+                                <div class="modal-content" style="background-color: #2F47FF;padding: 30px;color:white;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;">
+                                    <!-- start modal content -->
+                                    <img src="static/img/EA_Proj.png" alt="5Terre" width="600" height="400">
+                                    <hr>
+                                    Eniac Attack is simple platformer where you jump from platform to platform and reach the end and once you reach the end you will stop the evil grasshopper from getting into Eniac. I enjoyed making this game and i hope you enjoy playing it ,it was made
+                                    with a javascript(JS) library called Phaser which lets you to make your 2d games with easy mechanics.
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="column">
+                    <div class="panel image_hover">
+                        <div class="modal-container">
+                            <a class="js-modal-trigger">
+                        <button target="_blank" href="">
+                            <div class="gallery">
+                                <img src="static/img/eaWeb.png" alt="5Terre" width="600" height="400">
+                                <div class="desc" style="color: #ffffff;">eniacattack.com</div>
+                            </div>
+
+                        </button>
+                        </a>
+                            </a>
+                            <div class="modal">
+                                <div class="modal-background"></div>
+                                <div class="modal-content" style="background-color: #2F47FF;padding: 30px;color:white;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;">
+                                    <!-- start modal content -->
+                                    <img src="static/img/eaWeb.png" alt="5Terre" width="600" height="400">
+                                    <hr>
+                                    This website is for the game I made called eniac attack and the website is made by HTML,CSS and Bulma, and if you are wondering what is Bulma ,well it is a css framework sort of like Bootstrap but In my opinion Bulma is easier
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="column">
+                    <div class="panel image_hover">
+                        <div class="modal-container">
+                            <a class="js-modal-trigger">
+                        <button target="_blank" href="">
+                            <div class="gallery">
+                                <img src="static/img/unity.png" alt="5Terre" width="600" height="400">
+                                <div class="desc" style="color: #ffffff;">Unity Developement</div>
+                            </div>
+
+                        </button>
+                        </a>
+                            </a>
+                            <div class="modal">
+                                <div class="modal-background"></div>
+                                <div class="modal-content" style="background-color: #2F47FF;padding: 30px;color:white;border-radius:10px;">
+                                    <!-- start modal content -->
+                                    <img src="static/img/unity.png" alt="5Terre" width="600" height="400">
+                                    <hr>
+                                    I have made a game with Unity 3d Its basically a racing game and the programming language I used for it was C#.Since C# was new to me I didn't understand it that well so I had to go through the struggle for learning a programming language and also learning how to make a game with that new programming language
+                                    <!-- end modal content -->
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="columns ">
+
+                <div class="column">
+                    <div class="panel image_hover">
+                        <div class="modal-container">
+                            <a class="js-modal-trigger">
+                        <button target="_blank" href="">
+                            <div class="gallery">
+                                <img src="static/img/minecraft1.png" alt="5Terre" width="600" height="400">
+                                <div class="desc" style="color: #ffffff;">Minecraft Modding</div>
+                            </div>
+
+                        </button>
+                        </a>
+                            </a>
+                            <div class="modal">
+                                <div class="modal-background"></div>
+                                <div class="modal-content" style="background-color: #2F47FF;padding: 30px;color:white;border-radius:10px;">
+                                    <!-- start modal content -->
+                                    <img src="static/img/minecraft1.png" alt="5Terre" width="600" height="400">
+                                    <hr>
+                                    Another Project I did was making a mod with Java for Minecraft.Before I started making the mod I had to learn Java and the text editor I used for coding Eclipse.For the tutorial I used for making the mod was Mr CrayFish's
+                                    <!-- end modal content -->
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="column">
+                    <div class="panel image_hover">
+                        <div class="modal-container">
+                            <a class="js-modal-trigger">
+                        <button target="_blank" href="">
+                            <div class="gallery">
+                                <img src="static/img/kcafe.png" alt="5Terre" width="600" height="400">
+                                <div class="desc" style="color: #ffffff;">K-Cafe</div>
+                            </div>
+
+                        </button>
+                        </a>
+                            </a>
+                            <div class="modal">
+                                <div class="modal-background"></div>
+                                <div class="modal-content" style="background-color: #2F47FF;padding: 30px;color:white;border-radius:10px;">
+                                    <!-- start modal content -->
+                                    <img src="static/img/kcafe.png" alt="5Terre" width="600" height="400">
+                                    <hr>
+
+                                    This app was made for ordering food for the staffs and members at kidocode and it was made with Flask which which is a library in python it can do many things and this is the first time we made a website and we made it with Bootstrap ,HTML and flask
+                                    <!-- end modal content -->
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="column">
+                    <div class="panel image_hover">
+                        <div class="modal-container">
+                            <a class="js-modal-trigger">
+                        <button target="_blank" href="">
+                            <div class="gallery">
+                                <img src="static/img/prolan.jpg" alt="5Terre" width="600" height="400">
+                                <div class="desc" style="color: #ffffff;">20++ Coding Languages</div>
+                            </div>
+
+                        </button>
+                        </a>
+                            </a>
+                            <div class="modal">
+                                <div class="modal-background"></div>
+                                <div class="modal-content" style="background-color: #2F47FF;padding: 30px;color:white;border-radius:10px;">
+                                    <!-- start modal content -->
+                                    <img src="static/img/prolan.jpg" alt="5Terre" width="600" height="400">
+                                    <hr>
+                                    I also have experiences with many programming language I have made codes for converting Denary to Binary for over 20 programming languages like C#,C++,C,GO,Swift,Lua,Ruby,Bash,Java and many more
+                                    <!-- end modal content -->
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--
+            <div class="columns ">
+
+                <div class="column">
+                    <div class="panel image_hover">
+                        <div class="modal-container">
+                            <a class="js-modal-trigger">
+                        <button target="_blank" href="">
+                            <div class="gallery">
+                                <img src="static/img/nomtime.png" alt="5Terre" width="600" height="400">
+                                <div class="desc" style="color: #ffffff;">Nom-Time</div>
+                            </div>
+
+                        </button>
+                        </a>
+                            </a>
+                            <div class="modal">
+                                <div class="modal-background"></div>
+                                <div class="modal-content" style="background-color: #2F47FF;padding: 30px;">
+                                    <!-- start modal content -->
+
+                                    <!-- end modal content -->
+            <!--
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="column">
+                    <div class="panel image_hover">
+                        <div class="modal-container">
+                            <a class="js-modal-trigger">
+                        <button target="_blank" href="">
+                            <div class="gallery">
+                                <img src="static/img/prempro.png" alt="5Terre" width="600" height="400">
+                                <div class="desc" style="color: #ffffff;">Premiere Pro</div>
+                            </div>
+
+                        </button>
+                        </a>
+                            </a>
+                            <div class="modal">
+                                <div class="modal-background"></div>
+                                <div class="modal-content" style="background-color: #2F47FF;padding: 30px;color">
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                </div>-->
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <section class="hero " id="blue-box" style="background-color:#2F47FF;">
+        <div class="container mobilenav" id="contact">
+            <!--
+
+
+
+                <div class="column" align="center" >
+
+                    <div class="columns">
+                        <div class="column ">
+                            <span class="title" id="courier" align="center" style="color:white;"style="padding-right: 20%;">
+
+                                <span class="icon is-large ">
+                                    <i class="far fa-envelope"></i>
+                                </span>
+                            </span>
+
+    </span>
+                            <br>
+                            <span class="subtitle has-text-left is-vcentered" id="courier" align="center" style="color:white;">arsham@kidocode.com</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="column">
+
+                    <div class="columns " align="center">
+                        <div class="column ">
+                            <span class="title" id="courier" align="center" style="color:white;">
+
+<span class="icon is-large ">
+                                    <i class="fab fa-facebook-f"></i>
+                                </span>
+                            </span>
+                            <br>
+                            <a class="subtitle has-text-left is-vcentered" id="courier" align="center" href="https://www.facebook.com/arsham.shirkouhi.12?ref=bookmarks" style="color:white;">Arsham Shirkouhi</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            -->
+            <h1 id="courier" align="center" style="margin-bottom: 2rem;color:white;font-size:50px;"><img src="static/img/contact.png"></h1>
+
+            <div class="columns" style="    margin-bottom: -21rem;">
+                <div class=""></div>
+            <form class="form" style="" action="/" method="POST">
+                <h2 class="chead">CONTACT ME</h2>
+                <p type="Name:">
+                <input name="name"  placeholder="Enter your name" style="color:white;">
+                </p>
+                <p type="Email:"><input name="email" placeholder="Enter your email" style="color:white;">
+                </p>
+                <p type="Message:"><input name="message" placeholder="Enter your Message" style="color:white;">
+                </p>
+
+
+                <button class="why">Send Message</button>
+
+            </form>
+
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+
+    </section>
+
+    <!--<hr style="color:#0636a5;height:10px;">-->
+
+    <section id="orange-box">
+        <div class="footer-copyright">
+            <div class="container">
+
+                <!--<span id="courier" style="font-weight: bold;color:white;padding-left: 32%;font-size: 25px;">Eniac Attack copyright 2018</span>-->
+                <section class="hero" id="orange-box">
+                    <div class="container" id="whiteT">
+                        <br>
+                        <br>
+                        <h1 id="courier" align="center" style="font-size: 25px; margin-bottom: 3rem;color:white;"
+                        href="google.com">Arsham copyright 2018</h1>
+
+                    </div>
+                    <br><br><br><br><br><br><br><br><br>
+                                                           <div class="social-media">
+  <a href="https://www.facebook.com/arsham.shirkouhi.12" target = "_blank"><i  style="padding-top:10px;" class="fab fa-facebook icon is-large" aria-hidden="true"></i></a>
+  <a href="http://github.com/arsham10/" target = "_blank"><i style="padding-top:10px;" class="fab fa-github icon is-large	" aria-hidden="true"></i></a>
+  <!--<a href="https://www.youtube.com/channel/UCqiLBA-jBpnvAbPib6IE-qw" target = "_blank"><i style="padding-top:10px;" class="fab fa-youtube icon is-large" aria-hidden="true"></i></a>-->
+                                                               <a href="https://stackoverflow.com/users/8448761/arsham" target = "_blank"><i style="padding-top:10px;" class="fab fa-stack-overflow icon is-large" aria-hidden="true"></i></a>
+</div>
+
+                </section>
+
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script type="text/javascript" src="static/js/bulma.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+        // Cache selectors
+        var lastId,
+            topMenu = $("#mainNav"),
+            topMenuHeight = topMenu.outerHeight() + 1,
+            // All list items
+            menuItems = topMenu.find("a"),
+            // Anchors corresponding to menu items
+            scrollItems = menuItems.map(function() {
+                var item = $($(this).attr("href"));
+                if (item.length) { return item; }
+            });
+
+        // Bind click handler to menu items
+        // so we can get a fancy scroll animation
+        menuItems.click(function(e) {
+            var href = $(this).attr("href"),
+                offsetTop = href === "#" ? 0 : $(href).offset().top - topMenuHeight + 1;
+            $('html, body').stop().animate({
+                scrollTop: offsetTop
+            }, 850);
+            e.preventDefault();
+        });
+
+        // Bind to scroll
+        $(window).scroll(function() {
+            // Get container scroll position
+            var fromTop = $(this).scrollTop() + topMenuHeight;
+
+            // Get id of current scroll item
+            var cur = scrollItems.map(function() {
+                if ($(this).offset().top < fromTop)
+                    return this;
+            });
+            // Get the id of the current element
+            cur = cur[cur.length - 1];
+            var id = cur && cur.length ? cur[0].id : "";
+
+            if (lastId !== id) {
+                lastId = id;
+                // Set/remove active class
+                menuItems
+                    .parent().removeClass("active")
+                    .end().filter("[href=#" + id + "]").parent().addClass("active");
+            }
+        });
+
+        var modal = document.getElementById('myModal');
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
